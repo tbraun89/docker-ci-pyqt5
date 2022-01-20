@@ -6,4 +6,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     make \
     python3-pip \
     python3-pyqt5 \
+    qttools5-dev-tools \
   && rm -rf /var/lib/apt/lists/*
